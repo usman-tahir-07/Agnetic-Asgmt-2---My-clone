@@ -1,0 +1,13 @@
+# Essay: What Learning Computing Has Taught Me So Far
+
+I'm a university student learning computer science, and if I had to sum up what my courses have taught me so far, it would be this: a computer system is made of layers, and you only really understand it when you see how the layers talk to each other.
+
+Each subject I've studied showed me a different layer. Database management and SQL taught me how information is organised, linked and protected, with tables, keys, queries and permissions. Assembly language in EMU8086 took me right down to the bottom, where a program is just instructions moving values between registers and memory and setting flags. Parallel and distributed computing took me the other direction, to the level where one problem is split across many processors or many machines that need to coordinate. On their own, each of these felt like a separate world. Together, they started to form one picture.
+
+The thing that really connected the picture for me was a practical project: CaseTrack, my Judiciary Management System. It uses an HTML, CSS and JavaScript frontend, a Python Flask backend, and a Microsoft SQL Server database. Connecting these parts was not easy. I remember a navigation problem where clicking a section like Cases did not display the expected page. In theory that sounds like a small frontend issue, but in practice I had to trace it through the JavaScript event handlers and the backend routes before I understood what was going on. Working through problems like that showed me that building an application is more than writing code: the frontend, the backend routes and the database operations all have to agree with each other.
+
+It also changed how I think about mistakes. Before, an error felt like failure. Now I see debugging as part of the work. You read the error, you find which layer it comes from, you test that piece on its own, and you fix one thing at a time. It's slower than randomly changing code until it works, but it actually teaches you something.
+
+The way I study follows the same idea. I prefer simple and practical explanations, because when I understand a concept it's much easier to remember and apply it later. Before quizzes I use short revision notes and practice questions to find what I don't really understand yet. I use AI tools like ChatGPT to get explanations and get unstuck, but I make myself understand the final result instead of just copying it.
+
+I'm still learning, and I know there's a lot I don't know yet. My plan is simple: keep practising, keep building projects, and keep learning from my mistakes. One working feature at a time.

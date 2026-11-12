@@ -1,0 +1,14 @@
+# secrets - never commit
+.env
+*.env
+
+# local environment / tooling
+.venv/
+.claude/
+__pycache__/
+*.pyc
+
+# private drafts and course material (not part of the submission)
+ABOUT_ME_QUESTIONNAIRE.md
+questionaire_filled.md
+Google.pdf
